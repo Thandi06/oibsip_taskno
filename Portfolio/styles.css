@@ -1,0 +1,251 @@
+body {
+    font-family: Arial, sans-serif;
+    background:  #ffcbcb;
+    color: #132743;
+}
+h1{
+    text-align: center;
+}
+
+.header {
+    padding: 20px 0;
+    background-color: #ffb5b5;
+    border-radius: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    font-size: 26px;
+    color:#132743;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.navigate a {
+    font-size: 20px;
+    color:#132743;
+    text-decoration: none;
+    font-weight: 100;
+    margin-left: 50px;
+}
+.navigate a:hover,
+.navigate a.active {
+    color: #407088;
+
+}
+
+.home{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.home-information{
+    max-width: 600px;
+}
+
+.home-information h1 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.home-information h2{
+    font-size: 30px;
+    font-weight: 700;
+    color:#130338;
+    line-height: 1,5px;
+}
+button{
+    background:#130338;
+    border: 2px solid #ffb5b5;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600px;
+    letter-spacing: 1px;
+    padding: 10px 
+
+}
+button a{
+    color:#ffb5b5;
+    text-decoration: none;
+    font-weight: 600px;
+}
+button a:hover {
+    background:#ffb5b5;
+    color: #130338;
+}
+button:hover{
+    background: #ffb5b5;
+    border:2px solid #130338;
+}
+.container{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: flex-start;
+}
+.image{
+    width: 400px;
+}
+
+.social-media {
+    line-height: 1,5px;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-right: 5px;
+}
+
+.social-icons a {
+    display: flex;
+    position:relative;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(2.1);
+}
+.logo-skills{
+    border-radius: 100px;
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+}
+.perform{
+    display:flex;
+    justify-content: space-between;
+    max-width: 600px;
+}
+.paragraph{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+.topic{
+    border: 2px solid #130338;
+    text-align: center;
+    border-radius: 20px;
+}
+.web{
+    border: 2px solid #130338;
+    text-align: center;
+    border-radius: 20px;
+    }
+.response{
+    border: 2px solid #130338;
+    text-align: center;
+    border-radius: 20px;
+    }
+.user{
+    border: 2px solid #130338;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+.site{
+    border: 2px solid #130338;
+    text-align: center;
+    border-radius: 20px;
+}
+.opt{
+    border: 2px solid #130338;
+    text-align: center;
+    border-radius: 20px;
+}
+.engine{
+    border: 2px solid #130338;
+    text-align: center;
+    border-radius: 20px;
+}
+.animation{
+    border: 2px solid #130338;
+    text-align: center;
+    border-radius: 20px;
+}
+.version{
+    border: 2px solid #130338;
+    text-align: center;
+    border-radius: 20px;
+}
+.back{
+    border: 2px solid #130338;
+    text-align: center;
+    border-radius: 20px;
+}
+.pro{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+.github{
+    display: flex;
+    border: 2px solid #130338;
+    color: #130338;
+    border-radius: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    
+}
+.live-demo{
+    border: 2px solid #130338;
+    color: #130338;
+    border-radius: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+span.live{
+    font-size: 15px;
+    font-weight: bold;
+    color:#130338;
+    text-align: center;
+}
+.weather-app{
+    border:2px solid #130338;
+    border-radius: 10px;
+    max-width: 600px;
+    padding: 30px 40px;
+}
+.convect{
+    border: 2px solid #130338;
+    border-radius: 10px;
+    max-width: 600px;
+    padding: 30px 40px;
+}
+.page{
+    border: 2px solid #130338;
+    border-radius: 10px;
+    max-width: 600px;
+    padding: 30px 40px;
+}
+.expense{
+    border: 2px solid #130338;
+    border-radius: 10px;
+    max-width: 600px;
+    padding: 30px 40px;
+}
+.yoga{
+    border: 2px solid #130338;
+    border-radius: 10px;
+    max-width: 600px;
+    padding: 30px 40px;
+}
