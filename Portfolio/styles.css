@@ -1,7 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background:  #ffcbcb;
     color: #132743;
+    background:#ffcbcb;
+    
+}
+.body{
+    background-image: url("image/cokepic.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #ffcbcb;
+    background-position: right;
 }
 h1{
     text-align: center;
@@ -39,7 +47,7 @@ h1{
 }
 
 .home{
-    height: 50vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     padding: 0 10px;
@@ -47,6 +55,9 @@ h1{
 
 .home-information{
     max-width: 600px;
+}
+p{
+    font-size: larger;
 }
 
 .home-information h1 {
@@ -90,9 +101,6 @@ button:hover{
     gap: 20px;
     align-items: flex-start;
 }
-.image{
-    width: 400px;
-}
 
 .social-media {
     line-height: 1,5px;
@@ -125,7 +133,23 @@ button:hover{
 }
 .logo-skills{
     border-radius: 100px;
+    width: 50px;
+    display: block;
+    align-items: center;
+    transition: transform 0.3s;
 }
+.logo-skills:hover{
+    transform: scale(1.5);
+}
+.logo-skill{
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
 .service{
     display: flex;
     justify-content: space-between;
@@ -199,6 +223,7 @@ button:hover{
 }
 .github{
     display: flex;
+    flex-direction: column;
     border: 2px solid #130338;
     color: #130338;
     border-radius: 20px;
@@ -248,4 +273,61 @@ span.live{
     border-radius: 10px;
     max-width: 600px;
     padding: 30px 40px;
+}
+.img-project{
+    width: 150px;
+    border-radius: 25px;
+    transition: transform 0.3s;
+}
+.img-project:hover{
+    transform: scale(1.5);
+}
+.experiences{
+    max-width: 600px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.box{
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 auto;
+    background:linear-gradient(#ffcbcb, #ffb5b5) ;
+    
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: #ffb5b5;
+}
+hr{
+    color: #ffb5b5;
+}
+.exp{
+    border: 2px solid #130338;
+    border-radius: 50px;
+    max-width: 600px;
+    padding: 30px 40px;
+}
+svg{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+}
+.java-verified,
+.css-verified,
+.html-verified {
+    display: flex;
+    flex-direction: row;
+
+}
+.html, .css, .java{
+    border: 2px solid #130338;
+    border-radius: 50px;
+    padding: 30px 40px;
+}
+.line{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
 }
