@@ -24,6 +24,10 @@ border-radius: 1.5em;
     background:#0c005a;
     color: #fff;
     margin: 10px;
+    text-decoration: none;
+}
+.info:hover{
+    text-decoration: underline;
 }
 
 .wifi{
@@ -53,15 +57,6 @@ text-align: center;
 
 span {
 color: blueviolet;
-}
-
-.info {
-color: blueviolet;
-text-decoration: none;
-}
-
-.info:hover {
-text-decoration: underline;
 }
 
 .container {

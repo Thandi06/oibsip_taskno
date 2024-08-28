@@ -1,14 +1,14 @@
 function convertTemperature() {
-    const inputTemp = document.getElementById('inputTemp').value;
-    const inputUnit = document.getElementById('inputUnit').value;
-    const resultDiv = document.getElementById('result');
+    let inputTemp = document.getElementById('inputTemp').value;
+    let inputUnit = document.getElementById('inputUnit').value;
+    let resultDiv = document.getElementById('result');
 
     if (isNaN(inputTemp)) {
         resultDiv.textContent = 'Please enter a valid number';
         return;
     }
 
-    const temp = parseFloat(inputTemp);
+    let temp = parseFloat(inputTemp);
     let convertedTemp;
 
     if (inputUnit === 'C') {
